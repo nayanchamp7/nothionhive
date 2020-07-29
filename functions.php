@@ -117,7 +117,7 @@ if (!function_exists('nh_services_checklist')) {
 
                 <div class="calculated-result">
                     <h6>Total</h6>
-                    <h6 class="total-amount">$<span id="total"><span class="abs-total">2500<span>.00</span></h6>
+                    <h6 class="total-amount">$<span id="total"><span class="abs-total">0<span>.00</span></h6>
                 </div>
 
                 <div class="avail-btn-container show" style="height: 50px;">

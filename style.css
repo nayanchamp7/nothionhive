@@ -25,9 +25,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	padding-left: 100px;
 }
 
+.box-service-name {
+    line-height: 1;
+}
 .box-service-name p{
-    font-size: 14px;
-    
+    font-size: 14px !important;
+    line-height: 24px !important;
 }
 
 .selection-container label{
@@ -43,7 +46,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 .selection-container .headings p {
-    font-size: 17px;
+    font-size: 14px;
     font-family: 'poppins';
 }
 
@@ -135,8 +138,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	  font-size: 1.8rem;
   }
 
+  .calculated-result h6 {
+    font-size: 22px;
+    line-height: 1;
+  }
   .calculated-result .total-amount{
-	  font-size: 1.8rem;
+    font-size: 25px;
+    line-height: 1;
   }
 
 

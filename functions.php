@@ -108,7 +108,7 @@ if (!function_exists('nh_services_checklist')) {
                                 <?php echo sprintf( '$<span id="price-%s">%s</span>', $counter, $service_item['service_checklist_price'] ); ?>
                             </div>
                         </div>
-                        <input id="check-<?php echo $counter; ?>" data-price="<?php echo $service_item['service_checklist_price']; ?>" class="package-check check-one" type="checkbox">
+                        <input id="check-<?php echo $counter; ?>" data-service="<?php echo $service_item['service_checklist_title']; ?>" data-price="<?php echo $service_item['service_checklist_price']; ?>" class="package-check check-one" type="checkbox">
                         <span class="checkmark"></span>
                     </label>
 

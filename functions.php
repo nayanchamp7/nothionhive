@@ -101,7 +101,7 @@ if (!function_exists('nh_services_checklist')) {
 
                             <div id="service-<?php echo $counter; ?>" class="box-service-name" data="<?php echo $service_item['service_checklist_title']; ?>">
                                 <?php echo $service_item['service_checklist_title']; ?>
-                                <?php echo sprintf( '<p class="package-detail">%s</p>', $service_item['service_checklist_content'] ); ?>
+                                <?php echo $service_item['service_checklist_content']; ?>
                             </div>
 
                             <div class="service-price">

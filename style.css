@@ -1,0 +1,267 @@
+/*
+Theme Name: Notionhive Theme Child
+Template: notionhive
+Text Domain: notionhivechild
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Notionhive child theme.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: Nazrul Islam Nayan
+Author URI: https://profiles.wordpress.org/nayanchamp7/
+Theme URI: https://wordpress.org/themes/twentytwenty/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+.selection-container{
+	width: 50%;
+}
+
+.selection-container{
+	padding-left: 100px;
+}
+
+.package-detail{
+	font-size: 1rem;
+}
+
+.selection-container label{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	margin: 20px auto;
+}
+
+.selection-container .headings,
+.selection-container .calculated-result{
+	display: flex;
+	justify-content: space-between;
+	font-weight: 600;
+}
+
+
+/* style for selection package */
+
+
+/* The box field */
+.box-field {
+	display: block;
+	position: relative;
+	padding-left: 40px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .box-field input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 4px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .box-field:hover input ~ .checkmark {
+	background-color: #ccc;
+	transition: background-color .1s;
+  }
+  
+  .box-field:focus{
+	  background-color: none;
+	  outline: none;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .box-field input:checked ~ .checkmark {
+	background-color: #1158e5;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .box-field input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .box-field .checkmark:after {
+	left: 6px;
+    top: 0px;
+	width: 10px;
+	height: 15px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+
+  }
+
+  .box-text-holder{
+	  display: flex;
+	  justify-content: space-between;
+  }
+
+  .service-price{
+	  font-size: 1.8rem;
+  }
+
+  .calculated-result .total-amount{
+	  font-size: 1.8rem;
+  }
+
+
+
+@media screen and (max-width: 1080px){
+
+	.form-container form{
+		margin: 30px auto;
+	}
+	.flex-container{
+		padding-bottom: 50px;
+	}
+	.avail-btn-container{
+		margin-top: 20px;
+	}
+
+	#avail-btn{
+		padding: 15px 40px;
+	}
+
+	#contact-form-section .container{
+		padding-bottom: 10px;	
+	}
+
+	.service-price{
+		font-size: 1.4rem;
+	}
+	
+}
+
+
+@media screen and (max-width: 768px){
+	
+	.modal-form-container{
+		width: 80%;
+	}
+
+	#pageintro article .heading{
+		font-size: 2rem;
+	}
+
+	.clients-list{
+		grid-template-columns: auto auto;
+	}
+	
+	.details-container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.details-container .detail-img:after{
+		width: 40px;
+		height: 40px;
+		top: -15px;
+    	right: -15px;
+	}
+
+	.details-container .detail-main-img{
+		width: 100%;
+	}
+
+
+	#pageintro{
+		padding: 80px 0;
+	}
+
+	.second-heading{
+		text-align: center;
+	}
+
+	.hoc{
+		padding: 0;
+	}
+
+	.details-container .detail-img,
+	.details-container  .detail-text{
+		width: 90%;
+		margin: auto;
+	}
+	
+	.details-container .detail-img{
+		order: 1;
+		text-align: center;
+		width: 60%;
+	}
+	.details-container .detail-text{
+		order: 2;
+		padding: 0 1%;
+		padding-top: 50px;
+	}
+
+	.call-to-action .text-container{
+		width: 90%;
+	}
+
+	#header #logo{
+		margin: 0;
+	}
+	#logo,
+	#logo h1{
+		width: 60%;
+	}
+	#header{
+		padding: 0;
+	}
+	.btn-cta{
+		font-size: 1.2rem;
+	}
+
+	.form-container{
+		width: 90%;
+	}
+
+	#footer{
+		padding: 40px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#header-button{
+		font-size: 10px;
+	}
+	.details-container .detail-img{
+		width: 90%;
+	}
+	.bgded{
+		background-size: 100% auto;
+	}
+	.grid-item{
+		padding: 0;
+	}
+	
+}

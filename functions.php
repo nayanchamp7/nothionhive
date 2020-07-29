@@ -120,10 +120,6 @@ if (!function_exists('nh_services_checklist')) {
                     <h6 class="total-amount">$<span id="total"><span class="abs-total">0<span>.00</span></h6>
                 </div>
 
-                <div class="avail-btn-container show" style="height: 50px;">
-                    <a href="#contact-form-section" id="avail-btn" class="btn">Take Me To the Final Step</a>
-                </div>
-
             </div>
 
             <?php

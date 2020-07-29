@@ -176,93 +176,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px) {
 	
-	.modal-form-container{
-		width: 80%;
-	}
-
-	#pageintro article .heading{
-		font-size: 2rem;
-	}
-
-	.clients-list{
-		grid-template-columns: auto auto;
-	}
-	
-	.details-container{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-	}
-
-	.details-container .detail-img:after{
-		width: 40px;
-		height: 40px;
-		top: -15px;
-    	right: -15px;
-	}
-
-	.details-container .detail-main-img{
-		width: 100%;
-	}
-
-
-	#pageintro{
-		padding: 80px 0;
-	}
-
-	.second-heading{
-		text-align: center;
-	}
-
-	.hoc{
-		padding: 0;
-	}
-
-	.details-container .detail-img,
-	.details-container  .detail-text{
-		width: 90%;
-		margin: auto;
-	}
-	
-	.details-container .detail-img{
-		order: 1;
-		text-align: center;
-		width: 60%;
-	}
-	.details-container .detail-text{
-		order: 2;
-		padding: 0 1%;
-		padding-top: 50px;
-	}
-
-	.call-to-action .text-container{
-		width: 90%;
-	}
-
-	#header #logo{
-		margin: 0;
-	}
-	#logo,
-	#logo h1{
-		width: 60%;
-	}
-	#header{
-		padding: 0;
-	}
-	.btn-cta{
-		font-size: 1.2rem;
-	}
-
-	.form-container{
-		width: 90%;
-	}
-
-	#footer{
-		padding: 40px;
-	}
+	.selection-container{
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width: 600px){

@@ -1,5 +1,6 @@
 (function ($) {
-    $('document').ready(function () {
+
+    $(document).ready(function () {
 
         //on click show popup
         $('.notionhive-black-header-button').on('click', function (e) {

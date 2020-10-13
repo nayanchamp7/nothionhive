@@ -4,4 +4,6 @@
 
     $value = 'First name';
     sprintf('<input type="text" value="%s">', $value);
+
+    echo 'updated line 1';
 ?>
